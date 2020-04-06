@@ -1,0 +1,71 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    background-image: url(https://img.freepik.com/free-vector/soft-blueabstract-background_1020-1105.jpg?size=338&ext=jpg);
+   
+    color: rgb(224, 47, 24) ;
+}
+
+.main{
+    width: 500px;
+    background-color: lightblue ;
+}
+
+.design{
+    background-color: rgba(32, 151, 131, 0.116);
+    width: 600px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+}
+
+.main1{
+    width: 80%;
+    height: 100%;
+    position: relative;
+    bottom: 8px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.main2{
+    width: 20%;
+}
+
+.main2 a{
+    margin: 10px 10px;
+    position: relative;
+    top: 24%;
+    cursor: pointer;
+}
+
+.h1{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+}
+
+.dolist{
+    margin-top: 10%;
+    margin-left: 36%;
+    width: 600px;
+}
+
+.dolist input{
+    width: 82.7%;
+    background: none;
+    border:none;
+    outline: none;
+    font-size: 1.8rem;
+}
+
+.dolist button{
+    width: 16%;
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+    outline: none;
+}
+
+
