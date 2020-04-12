@@ -1,0 +1,49 @@
+.task {
+  width: 500px;
+  position: relative;
+  bottom: 20px;
+}
+
+.bar {
+  position: absolute;
+  width: 608px;
+  height: 20px;
+  background: linear-gradient(to right, #ffc3a0, #ffafbd);
+  z-index: 1;
+}
+
+.filling {
+  position: absolute;
+  width: 0px;
+  height: 20px;
+  background-color: orange;
+  z-index: 2;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZNogD15OWFRn6W9TMktIebhhFsrWu7hqcJCTLa8r6DbfFWW-i&usqp=CAU");
+  background-size: contain;
+  animation: moving 20s linear infinite;
+}
+
+@keyframes moving {
+  0% {
+    background-position: left 0px top 10px;
+  }
+  40% {
+    background-position: left 800px top 10px;
+  }
+}
+
+.one {
+  display: inline-block;
+}
+
+.a {
+  width: 50px;
+}
+
+.b {
+  width: 550px;
+}
+
+.c {
+  opacity: 0;
+}
